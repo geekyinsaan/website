@@ -127,3 +127,42 @@ a:hover {
 .school {
     float:center;
 }
+@media only screen and (max-width: 1000px) {
+  .top-container {
+    width: 585px;
+  }
+  .bottom-container {
+    width: 585px;
+  }
+
+  .para {
+    text-align: center;
+  }
+  .pic {
+    width: 585px;
+  }
+  .pfp {
+    float: middle;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  .footer-link {
+    font-size: 1.7rem;
+  }
+  .weblove {
+    margin-left: 20%;
+  }
+  .python {
+    margin-right: 20%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 3.25rem;
+  }
+  .intro {
+    width: 70%;
+  }
+}
