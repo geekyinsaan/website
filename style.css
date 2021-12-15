@@ -1,145 +1,145 @@
 .top-container {
-    background-color:#bff3bf;
-    position : relative;
-    padding-top: 100px;
-    Width:100%;
+  background-color: #bff3bf;
+  position: relative;
+  padding-top: 100px;
 }
 body {
-    color: #40514E;
-    font-family: 'Merriweather', serif;
-    margin: 0 0 0 0;
-    text-align: center;
-    line-height: 2;
+  color: #40514e;
+  font-family: "Merriweather", serif;
+  margin: 0 0 0 0;
+  text-align: center;
+  line-height: 2;
+}
+.hr {
+  display: none;
 }
 h1 {
-    color: #66BFBF;
-    font-family: 'Sacramento', 'cursive';
-    font-size: 90px;
-    margin-top: 0;
-    margin-bottom: 0;
+  color: #66bfbf;
+  font-family: "Sacramento", "cursive";
+  font-size: 90px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h2 {
-    color: #66BFBF;
-    font-family: 'Montserrat', 'serif';
-    font-size: 2.5rem;
-    font-weight: normal;
-    margin-top: 0;
+  color: #66bfbf;
+  font-family: "Montserrat", "serif";
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0;
 }
 h3 {
-    font-family: 'Montserrat', 'serif';
-    color: #66BFBF;
+  font-family: "Montserrat", "serif";
+  color: #66bfbf;
 }
-
 
 .pro {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 350px;
-    
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
 }
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 30px;
-
+  position: absolute;
+  right: 300px;
+  top: 30px;
 }
 .mountain {
-    padding-top: 30px;
-    max-width:100%;height:auto;
+  padding-top: 30px;
+  max-width: 100%;
+  height: auto;
 }
 .python {
-    border-radius: 45%;
+  border-radius: 45%;
 }
-.pfp{
-    margin: 50px;
+.pfp {
+  margin: 50px;
 }
 .skill-row {
-    text-align: left;
-    width: 50%;
-    margin:100px auto 100px auto ;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
 }
 .weblove {
-    float: left;
-    margin-right: 30px;
+  float: left;
+  margin-right: 30px;
 }
 .python {
-    float: right;
-    margin-left: 30px;
+  float: right;
+  margin-left: 30px;
 }
 hr {
-    border-color: grey;
-    border-style: none;
-    border-top-style: dotted;
-    width: 8%;
-    border-width: 5px;
-    margin: 80px auto 80px auto;
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  width: 8%;
+  border-width: 5px;
+  margin: 80px auto 80px auto;
 }
 .Intro {
-    width: 30%;
-    margin: auto;
+  width: 30%;
+  margin: auto;
 }
 .btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 .bottom-container {
-    background-color: #66BFBF;
-    margin: 100px auto 0 auto;
-    padding: 25px 0 15px;
+  background-color: #66bfbf;
+  margin: 100px auto 0 auto;
+  padding: 25px 0 15px;
 }
 a {
-    color: #11999E;
-    margin: 10px 10px auto 10px;
-    text-decoration: none;
+  color: #11999e;
+  margin: 10px 10px auto 10px;
+  text-decoration: none;
 }
 a:hover {
-    color:#99caca;
+  color: #99caca;
 }
 .copyright {
-    color:#EAF6F6;
-    font-size: 0.75rem;
+  color: #eaf6f6;
+  font-size: 0.75rem;
 }
-.school {
-    float:center;
-}
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .top-container {
-    width: 585px;
+    width: 100%;
   }
   .bottom-container {
-    width: 585px;
+    width: 100%;
   }
-
+  .hr {
+    display: normal;
+  }
   .para {
     text-align: center;
+    /* width: 70%; */
   }
   .pic {
-    width: 585px;
+    width: 100%;
   }
   .pfp {
     float: middle;
@@ -148,21 +148,40 @@ a:hover {
     font-size: 1.25rem;
   }
   .footer-link {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
-  .weblove {
-    margin-left: 20%;
-  }
-  .python {
-    margin-right: 20%;
+  h1 {
+    font-size: 4rem;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   h2 {
-    font-size: 3.25rem;
+    font-size: 2rem;
   }
-  .intro {
-    width: 70%;
+  .para {
+    width: 130%;
+    margin: auto 20% auto auto;
+    padding-right: 20px;
+  }
+  .skill-para {
+    /* width: 90%; */
+    margin-right: 17%;
+    text-align: center;
+  }
+  .Intro {
+    width: 80%;
+  }
+  .top-cloud {
+    width: 25%;
+    height: 5%;
+    left: 22%;
+    top: 60%;
+  }
+  .bottom-cloud {
+    width: 20%;
+    height: 4%;
+    left: 55%;
+    top: 75%;
   }
 }
