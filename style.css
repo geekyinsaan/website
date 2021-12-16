@@ -187,8 +187,11 @@ a:hover {
   }
 }
 @media only screen and (max-width: 727px) and (min-width: 547px) {
-  .img {
-    padding-left: 100px;
-    padding-right: 100px;
+  .weblove {
+    margin-right: 10rem;
+  }
+  .img2 {
+    float: center;
+    padding-right: 45%;
   }
 }
