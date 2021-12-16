@@ -11,7 +11,8 @@ body {
   line-height: 2;
 }
 .hr {
-  display: none;
+  /* display: none; */
+  visibility: none;
 }
 h1 {
   color: #66bfbf;
@@ -124,7 +125,7 @@ a:hover {
   color: #eaf6f6;
   font-size: 0.75rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .top-container {
     width: 100%;
   }
@@ -148,25 +149,25 @@ a:hover {
     font-size: 1.25rem;
   }
   .footer-link {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   h1 {
     font-size: 4rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   h2 {
     font-size: 2rem;
   }
   .para {
-    width: 130%;
+    width: 170%;
     margin: auto 20% auto auto;
     padding-right: 20px;
   }
   .skill-para {
     /* width: 90%; */
-    margin-right: 17%;
+    margin-right: 38%;
     text-align: center;
   }
   .Intro {
@@ -183,5 +184,11 @@ a:hover {
     height: 4%;
     left: 55%;
     top: 75%;
+  }
+}
+@media only screen and (max-width: 727px) and (min-width: 547px) {
+  .img {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
