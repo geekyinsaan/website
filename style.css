@@ -202,4 +202,8 @@ a:hover {
     float: center;
     padding-right: 45%;
   }
+    .btn {
+    font-size: 0.8rem;
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+  }
 }
