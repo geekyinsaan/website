@@ -129,6 +129,10 @@ a:hover {
   .top-container {
     width: 100%;
   }
+    .btn {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+  }
   .bottom-container {
     width: 100%;
   }
