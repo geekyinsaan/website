@@ -202,8 +202,29 @@ a:hover {
     float: center;
     padding-right: 45%;
   }
-    .btn {
+  .btn {
     font-size: 0.8rem;
     padding: 0.7rem 1.2rem 0.7rem 1.2rem;
   }
+  .top-cloud {
+    position: relative;
+    top: 30rem;
+    left: 10%;
+    align: center;
+    width: 25%;
+    height: 5%;
+  }
+  .bottom-cloud {
+    position: relative;
+    width: 16%;
+    height: 3%;
+    left: 8rem;
+    top: 11.5rem;
+  }
+  .top-cld {
+    text-align: left;
+    padding-left: 10rem;
+  }
+
 }
+
