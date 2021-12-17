@@ -126,6 +126,9 @@ a:hover {
   font-size: 0.75rem;
 }
 @media only screen and (max-width: 480px) {
+  #py {
+    font-size: 1.25rem;
+}
   .top-container {
     width: 100%;
   }
@@ -225,6 +228,9 @@ a:hover {
     text-align: left;
     padding-left: 10rem;
   }
+  #py {
+    font-size: 1.25rem;
+}
 
 }
 
