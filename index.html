@@ -1,57 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="Images/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento">
-    <title>Devesh's website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine's Day ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      color: #fff;
+    }
+    .container {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+    .heart {
+      font-size: 3em;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .button {
+      background: #ff4b5c;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      color: white;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #ff1e3c;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <div class="top-container">
-      <img class="top-cloud" src="Images/cloud.png" alt="cloudImage"> 
-      <h1>I'm Devesh</h1>
-      <h2>a <span class="pro">pro</span>grammer</h2>
-      <img class="bottom-cloud" src="Images/cloud.png" alt="cloudImage">
-        <img class="mountain" src="Images/mountain.png" alt="MountainImage">
-    </div class="mid-container">
-        <div class="profile">
-          <div class="pic" ><img class="pfp" src="Images/index.png" alt="Devesh's image" height="200px">
-          <h2 id="h2">Hello</h2>
-          <p class="Intro">I'm student of class 10th. I 
-            ❤️ coffee and Pc Games. I'm studying in <span class="school"><a href="https://www.happymodelschool.com/">Happy Model School</a></span> </p></div>
-        </div>
-        <div class="pic"><hr></div>
-        <div class="pic"><div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <div class="img1"><img class="weblove" src="Images/web.png" alt=""></div>
-            <h3>Web development</h3>            <div class="skill-para"><p class="para">
-              I love to make cool a Awesome websites and I started to learn web site in class 10th(Because It is in syllabus 😜.) I'm learing web development from <a href="https://twitter.com/yu_angela?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Angela</a>'s course.
-            </p></div>
-          </div>
-          <div class="skill-row">
-          <div class="img2"><img class="python" src="Images/python.png" alt="python img"></div>
-          <h3>Python Programming</h3>
-            <div class="skill-para>"<p class="para" id="py">Python is my first(Because It is so simple and easy) and favorite  programming language. I started learing it when I was 13 year old.</p></div>
-          </div></div>
-        </div>
-        <div class="pic"><hr></div>
-        <div class="pic"><div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3 class="last">If you talk about anything</h3>
-          <a class="btn" href="mailto:deveshkumarz1982@gmail.com">CONTACT ME</a>
-        </div></div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://aatmagyan.page.link/t2k9baepvS2fFzTm9">Aatmagyan</a>
-        <a class="footer-link" href="https://github.com/geekyinsaan/">Github</a>
-        <a class="footer-link" href="https://www.instagram.com/geeky_daemon/">Instagram</a>
-        <p class="copyright">© 2021 Devesh kumar.</p>
-      </div>
-      
+  <div class="container">
+    <h1>Happy Valentine's Day, Meri Pyari Roderica ❤️</h1>
+    <p>Meri Pyari Roderica Hum Hamesha Sath Sath Khush Rahein.</p>
+    <img src="inverted-image.png" sizes="80%" alt="Us together">
+    <br>
+    <br>
+    <br>
+    <button class="button" onclick="alert('I Love You Forever 💕')">Tap Me</button>
+  </div>
 </body>
 </html>
